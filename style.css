@@ -25,10 +25,12 @@ img{
 h2{
     color: #ffffff;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 10px;
 }
 
 .inputs{
     padding: 10px;
+    margin-top: -130px;
 }
 
 input{
@@ -49,6 +51,7 @@ input{
 }
 
 .resultado{
+    display: none;
     width: 500px;
     font-weight: bold;
     background: rgba(255, 255, 255, 0.15);
@@ -85,7 +88,11 @@ button:hover{
 }
 
 @media screen and (max-width: 600px){
-    div img{
+    body{
+        overflow-x: hidden;
+    }
+
+    img{
         width: 100%;
     }
 

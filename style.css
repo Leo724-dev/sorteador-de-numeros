@@ -100,6 +100,10 @@ button:hover{
         font-size: 30px;
     }
 
+    .inputs{
+    margin-top: -80px;
+}
+
     input{
         width: 250px;
         height: 50px;
@@ -107,6 +111,10 @@ button:hover{
 
     ::placeholder{
         font-size: 20px;
+}
+
+.resultado{
+    width: 100%;
 }
 
 button{
